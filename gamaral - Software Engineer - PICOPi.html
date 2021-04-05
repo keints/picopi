@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://web.archive.org/web/20200114210055/https://guillermoamaral.com/read/picopi/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./gamaral - Software Engineer - PICOPi_files/analytics.js.download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=326;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./gamaral - Software Engineer - PICOPi_files/playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./gamaral - Software Engineer - PICOPi_files/wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://guillermoamaral.com/read/picopi/","20200114210055","https://web.archive.org/","web","/_static/",
+	      "1579035655");
+</script>
+<link rel="stylesheet" type="text/css" href="./gamaral - Software Engineer - PICOPi_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./gamaral - Software Engineer - PICOPi_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+	
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>gamaral - Software Engineer - PICOPi</title>
+	<meta name="description" content="Incredibly handsome engineer with a knack for electronics, gamedev, webcomics and content creation in general.
+">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/feed/">
+	<link rel="shortcut icon" href="https://web.archive.org/web/20200114210055im_/https://guillermoamaral.com/favicon.gif">
+
+	<link rel="stylesheet" href="./gamaral - Software Engineer - PICOPi_files/main.css">
+	<link rel="canonical" href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/read/picopi/">
+
+	<script src="./gamaral - Software Engineer - PICOPi_files/jquery-1.11.1.min.js.download" type="text/javascript"></script>
+	<script src="./gamaral - Software Engineer - PICOPi_files/jquery.fluidbox.min.js.download" type="text/javascript"></script>
+	<script src="./gamaral - Software Engineer - PICOPi_files/isotope.pkgd.min.js.download" type="text/javascript"></script>
+	<script src="./gamaral - Software Engineer - PICOPi_files/imagesloaded.pkgd.min.js.download" type="text/javascript"></script>
+	<script src="./gamaral - Software Engineer - PICOPi_files/youtube.js.download" type="text/javascript"></script>
+<script type="text/javascript">// Promises 
+var _eid_promises = {}; 
+// Turn the incoming message from extension 
+// into pending Promise resolving 
+window.addEventListener("message", function(event) { 
+    if(event.source !== window) return; 
+    if(event.data.src && (event.data.src === "background.js")) { 
+        console.log("Page received: "); 
+        console.log(event.data); 
+        // Get the promise 
+        if(event.data.nonce) { 
+            var p = _eid_promises[event.data.nonce]; 
+            // resolve 
+            if(event.data.result === "ok") { 
+                if(event.data.signature !== undefined) { 
+                    p.resolve({hex: event.data.signature}); 
+                } else if(event.data.version !== undefined) { 
+                    p.resolve(event.data.extension + "/" + event.data.version); 
+                } else if(event.data.cert !== undefined) { 
+                    p.resolve({hex: event.data.cert}); 
+                } else { 
+                    console.log("No idea how to handle message"); 
+                    console.log(event.data); 
+                } 
+            } else { 
+                // reject 
+                p.reject(new Error(event.data.result)); 
+            } 
+            delete _eid_promises[event.data.nonce]; 
+        } else { 
+            console.log("No nonce in event msg"); 
+        } 
+    } 
+}, false); 
+ 
+ 
+function TokenSigning() { 
+    function nonce() { 
+        var val = ""; 
+        var hex = "abcdefghijklmnopqrstuvwxyz0123456789"; 
+        for(var i = 0; i < 16; i++) val += hex.charAt(Math.floor(Math.random() * hex.length)); 
+        return val; 
+    } 
+ 
+    function messagePromise(msg) { 
+        return new Promise(function(resolve, reject) { 
+            // amend with necessary metadata 
+            msg["nonce"] = nonce(); 
+            msg["src"] = "page.js"; 
+            // send message 
+            window.postMessage(msg, "*"); 
+            // and store promise callbacks 
+            _eid_promises[msg.nonce] = { 
+                resolve: resolve, 
+                reject: reject 
+            }; 
+        }); 
+    } 
+    this.getCertificate = function(options) { 
+        var msg = {type: "CERT", lang: options.lang, filter: options.filter}; 
+        console.log("getCertificate()"); 
+        return messagePromise(msg); 
+    }; 
+    this.sign = function(cert, hash, options) { 
+        var msg = {type: "SIGN", cert: cert.hex, hash: hash.hex, hashtype: hash.type, lang: options.lang, info: options.info}; 
+        console.log("sign()"); 
+        return messagePromise(msg); 
+    }; 
+    this.getVersion = function() { 
+        console.log("getVersion()"); 
+        return messagePromise({ 
+            type: "VERSION" 
+        }); 
+    }; 
+}</script></head>
+
+
+<body style=""><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200114210055/https://guillermoamaral.com/read/picopi/</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./gamaral - Software Engineer - PICOPi_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","https://guillermoamaral.com/read/picopi/","20200114210055",1996,"/_static/",["/_static/css/banner-styles.css?v=wiOP2tld","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+	<header class="site-header">
+	<div class="wrapper">
+		<a class="site-title" href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/">gamaral - Software Engineer</a>
+
+		<nav class="site-nav">
+			<a href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/read/picopi/#" class="menu-icon">
+				<svg viewBox="0 0 18 15">
+					<path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+					<path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+					<path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+				</svg>
+			</a>
+
+			<div class="trigger">
+			
+			
+				<a class="page-link" href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/about/">About</a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				<a class="page-link" href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/marshmallow_h/">Marshmallow Game Engine</a>
+			
+			
+			
+			
+			</div>
+		</nav>
+	</div>
+</header>
+
+
+	<div class="page-content">
+		<div class="wrapper post">
+	<header class="post-header">
+		<h1 class="post-title">PICOPi</h1>
+		<p class="post-meta">Jul 19, 2016</p>
+		<div class="post-header">
+			
+			<div class="youtube" id="NCth5oqSYBk"><iframe width="100%" height="420" src="./gamaral - Software Engineer - PICOPi_files/NCth5oqSYBk.html" frameborder="0" allowfullscreen="" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div>
+			
+		</div>
+	</header>
+
+	<article class="post-content">
+		<p>PICO-8 console and stand-alone cartridge firmware distributed in an SD card
+image for the Raspberry Pi.</p>
+
+<!--more-->
+
+<h1 id="update">Update</h1>
+
+<p><strong>Sat Jan 20 20:02:51 PST 2018</strong></p>
+
+<p>I’ve rebuilt and open-sourced the PICOPi overlay. You can get your grubby hands
+on it here: <a href="https://web.archive.org/web/20200114210055/https://github.com/gamaral/rpi-buildroot/tree/picopi">https://github.com/gamaral/rpi-buildroot/tree/picopi</a></p>
+
+<p>For those interested in building/customizing PICOPi and who are not already
+familiar with Buildroot: <a href="https://web.archive.org/web/20200114210055/https://buildroot.org/manual.html">https://buildroot.org/manual.html</a></p>
+
+<p><strong>Sat Aug  6 12:43:42 PDT 2016</strong></p>
+
+<p>I sacrificed an extra second or two in boot time for ease of deployment. No
+more having to <strong>flash</strong> anything. You can simply unzip the contents of the
+PICOPi archive onto a standard <strong>FAT32</strong> formated SD card.</p>
+
+<h1 id="what-is-it">What is it?</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PICO-8 is a fantasy console for making, sharing and playing tiny games and
+other computer programs. When you turn it on, the machine greets you with a
+shell for typing in Lua commands and provides simple built-in tools for
+creating your own cartridges.
+</code></pre></div></div>
+
+<p>I fell in love this this little virtual console from day one. It catered
+perfectly to my 8-bit/16-bit graphic and C64 nostalgia.</p>
+
+<h1 id="pico-8-on-the-minnowboard">PICO-8 on the MinnowBoard</h1>
+
+<p>Some time ago, I made a similar image for the <strong>Minnowboard</strong> since there was
+no <a href="https://web.archive.org/web/20200114210055/http://www.lexaloffle.com/pico-8.php" title="PICO-8 Fantasy Console">PICO-8</a> build for ARM at the time:</p>
+
+<div class="youtube" id="0YRHtbOdxbc"><iframe width="100%" height="420" src="./gamaral - Software Engineer - PICOPi_files/0YRHtbOdxbc.html" frameborder="0" allowfullscreen="" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div>
+
+<p>Soon after <a href="https://web.archive.org/web/20200114210055/https://twitter.com/lexaloffle" title="Zep on Twitter">Zep</a> released a build for Raspbian and all was good –
+except for the fact that as an embedded engineer, using Raspbian for this
+purpose made my skin crawl.</p>
+
+<p>I wanted something that I could just pop in and play some games with in my
+hotel room, without needing to fiddle around with a full blown desktop, or
+worry about power cutting out and possibly corrupting the OS.</p>
+
+<p>I was sure I could do better, so I found myself with some free time and I made
+my own OS image for the <a href="https://web.archive.org/web/20200114210055/http://www.lexaloffle.com/pico-8.php" title="PICO-8 Fantasy Console">PICO-8</a> on the Raspberry Pi…</p>
+
+<p><img src="./gamaral - Software Engineer - PICOPi_files/bender.jpg" alt="Bender Meme"></p>
+
+<p>I specially wanted to (<strong>optionally</strong>) be super wasteful and use a single SD
+card per cartridge (which you can totally do and it’s great). I mean, can you
+imagine the tiny labels printed on the SD card? I sure can!</p>
+
+<h1 id="picopi">PICOPi</h1>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Boots directly to the ‘splorer’ or directly to a console (when not in stand-alone cartridge mode).</li>
+  <li>Corruption resistant.</li>
+  <li>Crazy-fast boot time.</li>
+  <li>HDMI audio output on by default.</li>
+  <li>Keymaps supported.</li>
+  <li>Nothing on screen but PICO-8.</li>
+  <li>Raspberry Pi will do a clean shutdown when PICO-8 does.</li>
+  <li>X-Box controller support (tested).</li>
+</ul>
+
+<h2 id="download">Download</h2>
+
+<h3 id="raspberry-pi">Raspberry Pi</h3>
+
+<p>Tested on Model A, A+, B, B+, CM, Zero.</p>
+
+<ul>
+  <li><a href="picopi-rpi1.zip">https://downloads.guillermoamaral.com/picopi/picopi-rpi1.zip</a></li>
+</ul>
+
+<h3 id="raspberry-pi-2">Raspberry Pi 2</h3>
+
+<p>Tested on Model B</p>
+
+<ul>
+  <li><a href="picopi-rpi2.zip">https://downloads.guillermoamaral.com/picopi/picopi-rpi2.zip</a></li>
+</ul>
+
+<h3 id="raspberry-pi-3">Raspberry Pi 3</h3>
+
+<p>Tested on Model B</p>
+
+<ul>
+  <li><a href="picopi-rpi3.zip">https://downloads.guillermoamaral.com/picopi/picopi-rpi3.zip</a></li>
+</ul>
+
+<h1 id="setup">Setup</h1>
+
+<ol>
+  <li>Format your SD card with a single FAT32 partition.</li>
+  <li>Unzip the PICOPi onto the SD card.</li>
+  <li>Unzip the PICO-8 archive (from Lexaloffle) onto the SD card (more
+information in the PICO-8 section below).</li>
+</ol>
+
+<h3 id="linux-sd-card-setup">Linux SD Card Setup</h3>
+
+<div class="youtube" id="tlIF5Xkoz14"><iframe width="100%" height="420" src="./gamaral - Software Engineer - PICOPi_files/tlIF5Xkoz14.html" frameborder="0" allowfullscreen="" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div>
+
+<h3 id="mac-os-x-sd-card-setup">Mac OS X SD Card Setup</h3>
+
+<div class="youtube" id="SucyxNnT27E"><iframe width="100%" height="420" src="./gamaral - Software Engineer - PICOPi_files/SucyxNnT27E.html" frameborder="0" allowfullscreen="" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div>
+
+<h3 id="windows-sd-card-setup">Windows SD Card Setup</h3>
+
+<div class="youtube" id="DrC_n_Y18aM"><iframe width="100%" height="420" src="./gamaral - Software Engineer - PICOPi_files/DrC_n_Y18aM.html" frameborder="0" allowfullscreen="" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div>
+
+<h1 id="pico-8">PICO-8</h1>
+
+<p><a href="https://web.archive.org/web/20200114210055/http://www.lexaloffle.com/pico-8.php" title="PICO-8 Fantasy Console">PICO-8</a> is not free in any sense of the word.</p>
+
+<p>At the moment of writing it will set you back <strong>15 USD</strong> for a lot of games
+which includes <strong>PICO-8</strong>.</p>
+
+<p>Download the <strong>Raspberry-Pi</strong>(ARM) archive, expand it in the first partition of
+the SD card that’s it. <strong>It Should Just Work</strong>.</p>
+
+<p>Your first partition should look something like this afterwards:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bcm2708-rpi-b.dtb
+bcm2708-rpi-b-plus.dtb
+bcm2708-rpi-cm.dtb
+bootcode.bin
+config.txt
+fixup.dat
+start.elf
+pico.pi
+pico-8/ &lt;----
+</code></pre></div></div>
+
+<h2 id="stand-alone-cartridge-mode">Stand-alone Cartridge Mode</h2>
+
+<p><a href="https://web.archive.org/web/20200114210055/https://guillermoamaral.com/read/picopi/pico8">Download your favorite cartridge from the PICO-8 website</a>, rename it to
+<strong>rom.p8</strong> or <strong>rom.p8.png</strong> and place it in the boot partition.</p>
+
+<p>Your first partition should look something like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bcm2708-rpi-b-plus.dtb
+bcm2708-rpi-b.dtb
+bcm2708-rpi-cm.dtb
+bootcode.bin
+config.txt
+fixup.dat
+rom.p8.png &lt;----
+start.elf
+pico-pi
+pico-8/
+</code></pre></div></div>
+
+<p>When the Raspberry Pi board boots, it will automatically load the cartrige file
+and run it.</p>
+
+<h1 id="configuration">Configuration</h1>
+
+<h2 id="offline-carts">Offline Carts</h2>
+
+<p>Download your favorite carts from the <a href="https://web.archive.org/web/20200114210055/http://www.lexaloffle.com/pico-8.php" title="PICO-8 Fantasy Console">PICO-8</a> website and copy them
+into the <strong>pico-8/carts</strong> directory on the SD Card. If the <strong>carts</strong> directory
+doesn’t exist, feel free to create it.</p>
+
+<h2 id="keyboard-layout">Keyboard Layout</h2>
+
+<p>If you wish to switch keyboard layout, you will need to modify the following
+line in <strong>config.txt</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>keymap=us
+</code></pre></div></div>
+
+<p>The usual standard Linux system keymaps are available; Valid keymap names
+include:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* azerty
+* dvorak
+* es
+* fr
+* us
+</code></pre></div></div>
+
+<h2 id="disable-splorer">Disable Splorer</h2>
+
+<p>It’s possible to boot directly to the console instead of ‘splorer’. To do so,
+comment out, remove or set the following line in <strong>config.txt</strong> to <strong>off</strong>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>splorer=on
+</code></pre></div></div>
+
+
+	</article>
+</div>
+
+	</div>
+
+	<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">gamaral - Software Engineer</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Guillermo A. Amaral B.</li>
+          <li><a href="https://web.archive.org/web/20200114210055/mailto:g@maral.me">g@maral.me</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://web.archive.org/web/20200114210055/https://github.com/gamaral">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path>
+                </svg>
+              </span>
+
+              <span class="username">gamaral</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://web.archive.org/web/20200114210055/https://twitter.com/gamaral">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"></path>
+                </svg>
+              </span>
+
+              <span class="username">gamaral</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Incredibly handsome engineer with a knack for electronics, gamedev, webcomics and content creation in general.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 21:00:55 Jan 14, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:57:04 Apr 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 69.946
+  exclusion.robots: 0.204
+  exclusion.robots.policy: 0.196
+  RedisCDXSource: 3.978
+  esindex: 0.007
+  LoadShardBlock: 39.804 (3)
+  PetaboxLoader3.datanode: 46.402 (4)
+  CDXLines.iter: 22.295 (3)
+  load_resource: 248.374
+  PetaboxLoader3.resolve: 206.522
+--></body></html>
