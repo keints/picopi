@@ -8,9 +8,3 @@ How to use:
 * Follow instructions from the blog post
 
 It's snapshot of a blog post from guillermoamaral.com and related zip files needed to run Pico-8 fantasy console on Raspberry Pi.
-
-## Contributors
-
-Guillermo A. Amaral B. - Original bootloaders and instructions how to use them
-
-Avo Keinaste - archiver
